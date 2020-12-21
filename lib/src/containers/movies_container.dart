@@ -5,14 +5,14 @@ import 'package:tema_curs5_flutter/src/models/movie.dart';
 import 'package:redux/src/store.dart';
 
 class MoviesContainer extends StatelessWidget {
-  const MoviesContainer({Key key, @required this.builder}) :super(key: key);
+  const MoviesContainer({Key key, @required this.builder}) : super(key: key);
   final ViewModelBuilder<List<Movie>> builder;
 
   @override
   Widget build(BuildContext context) {
     return StoreConnector<AppState, List<Movie>>(
-        converter: (Store<AppState> store) => store.state.movies.asList(),
-        builder: builder,
+      converter: (Store<AppState> store) => store.state.movies.asList(),
+      builder: builder,
     );
   }
 }

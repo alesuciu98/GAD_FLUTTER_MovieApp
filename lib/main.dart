@@ -35,10 +35,10 @@ class MovieApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StoreProvider<AppState>(
-        store: store,
-        child: const MaterialApp(
-          home: MyHomePage(),
-        ),
+      store: store,
+      child: const MaterialApp(
+        home: MyHomePage(),
+      ),
     );
   }
 }
