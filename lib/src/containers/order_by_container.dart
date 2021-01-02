@@ -1,7 +1,4 @@
-import 'package:flutter/widgets.dart';
-import 'package:flutter_redux/flutter_redux.dart';
-import 'package:redux/src/store.dart';
-import 'package:tema_curs5_flutter/src/models/appState.dart';
+part of containers;
 
 class OrderByContainer extends StatelessWidget {
   const OrderByContainer({Key key, @required this.builder}) : super(key: key);

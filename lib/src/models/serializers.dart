@@ -2,7 +2,7 @@ library serializers;
 
 import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart';
-import 'package:tema_curs5_flutter/src/models/movie.dart';
+import 'package:tema_curs5_flutter/src/models/index.dart';
 
 part 'serializers.g.dart';
 
